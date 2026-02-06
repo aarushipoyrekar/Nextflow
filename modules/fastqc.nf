@@ -9,6 +9,6 @@ process FASTQC {
     path "*_fastqc.zip"
     
     script: """
-    ${fastqc_bin} ${reads}
+    ${params.fastqc_bin} ${reads}
     """
 }
