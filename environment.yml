@@ -1,0 +1,15 @@
+name: varcall
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.13
+  - fastqc
+  - trimmomatic
+  - bwa
+  - samtools
+  - bcftools
+  - gatk
